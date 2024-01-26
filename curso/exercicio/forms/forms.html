@@ -6,15 +6,39 @@
     <title>Formulários</title>
 </head>
 <body>
-    <h1>Login</h1>
     <form>
+        <h1>Cadastre-se</h1>
         Login<br>
         <input type="text" name="login"><br>
         <br>
-        Senha<br>
-        <input type="password" name="senha"><br>
+
+        Sexo:<br>
+        <input type="radio" name="sexo">Masculino<br>
+        <input type="radio" name="sexo">Feminino<br>
+
         <br>
-        <input type="submit" name="Logar">
+        Interesses<br>
+        <input type="checkbox" name="interesses">Futebol<br>
+        <input type="checkbox" name="interesses">Música<br>
+        <input type="checkbox" name="interesses">Artes<br>
+        <input type="checkbox" name="interesses">Culinária<br>
+
+        <br>
+        Estado<br>
+        <select>
+            <option>GO</option>
+            <option>SP</option>
+            <option>RJ</option>
+            <option>MG</option>
+            <option>TO</option>
+            <option>BA</option>
+        </select><br><br>
+
+        Observações<br>
+        <textarea></textarea><br>
+
+        <br>
+        <input type="submit" value="Cadastrar">
     </form>
 </body>
 </html>
